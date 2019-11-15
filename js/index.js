@@ -24,6 +24,7 @@ document.querySelector('.calc .eq')
     .addEventListener('click',eqPressed);
 
 function eqPressed(){
+    isOperLast = 0;
     display.value = eval(display.value);
 }
 

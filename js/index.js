@@ -17,10 +17,6 @@ function operPressed(event){
         const btnText = event.target.innerHTML;
         isOperLast = 1;
         display.value+=btnText;
-    } else { 
-        const btnText = event.target.innerHTML;
-        let dispVal = display.value;
-        display.value = dispVal.substr(0, dispVal.length-1) + btnText;  
     }
 }   
 
